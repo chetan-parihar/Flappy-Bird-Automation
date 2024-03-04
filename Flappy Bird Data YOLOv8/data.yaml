@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['bird', 'pipedown', 'pipeup']
+
+roboflow:
+  workspace: chetanws
+  project: flappybord_groupdata
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/chetanws/flappybord_groupdata/dataset/3
